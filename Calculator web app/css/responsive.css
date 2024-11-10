@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+    .calculator_body {
+        padding: 10px;
+    }
+    
+    .button {
+        width: 50px;
+        padding: 14px;
+        margin: 2px;
+        font-size: 10px;
+    }
+    
+    .row input {
+        width: calc(100% - 20px);
+        font-size: 18px;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .calculator_body {
+        padding: 15px;
+    }
+    
+    .button {
+        width: 65px;
+        padding: 18px;
+    }
+}
+
+/* Large Screens (769px and above) */
+@media screen and (min-width: 769px) {
+    .calculator_body {
+        padding: 20px;
+    }
+}
